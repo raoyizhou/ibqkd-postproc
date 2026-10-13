@@ -1,0 +1,20 @@
+=== libqkd-postproc Toeplitz benchmark ===
+hw CLMUL: yes | QBER=3% f_ec=1.1 -> m/n = 0.5917
+
+[A] sliding-window  O(m*n/64)  -- v1 baseline
+  n=    50000  m=    29588     0.028868 s/run       1.025 Mbit/s
+
+[B] Karatsuba + CLMUL  O(N^1.585)  -- v2
+  n=    50000  m=    29588     0.000611 s/run      48.447 Mbit/s
+  n=   200000  m=   118355     0.005531 s/run      21.400 Mbit/s
+  n=  1000000  m=   591777     0.075030 s/run       7.887 Mbit/s
+  n=  4000000  m=  2367108     0.685792 s/run       3.452 Mbit/s
+  n=  8000000  m=  4734216     2.067754 s/run       2.290 Mbit/s
+
+[C] cross-check fast vs sliding-window (bit-exact)
+  n=       64  m=       37   consistent
+  n=     1000  m=      592   consistent
+  n=    50000  m=    29585   consistent
+  n=   200000  m=   118340   consistent
+
+done.

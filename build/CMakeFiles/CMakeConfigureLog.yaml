@@ -1,0 +1,79 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "E:/CMake/share/cmake-4.3/Modules/"
+    found: "E:/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "E"
+        - "J:\\workbuddy\\resources\\app.asar.unpacked\\cli\\vendor\\shim\\safe-bin"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\node\\versions\\22.22.2-3"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\node\\versions\\.locks"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\python\\versions\\3.13.12"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\python\\versions\\.locks"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\node\\cli-connector-packages"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\python\\envs\\default\\Scripts"
+        - "E"
+        - "J:\\workbuddy\\resources\\app.asar.unpacked\\cli\\vendor\\shim\\safe-bin"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\PortableGit\\versions\\1.2.0\\mingw64\\bin"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\PortableGit\\versions\\1.2.0\\usr\\bin"
+        - "C:\\Users\\qingqiang\\bin"
+        - "E:\\workbuddy\\resources\\app.asar.unpacked\\cli\\vendor\\shim\\safe-bin"
+        - "C:\\Users\\qingqiang\\.workbuddy\\plugins\\cache\\experts\\ip-expert\\1.0.0\\bin"
+        - "C:\\Users\\qingqiang\\.workbuddy\\plugins\\cache\\workbuddy-builtin\\weixinpay\\1.6.110\\bin"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\node\\versions\\22.22.2-3"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\node\\versions\\.locks"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\python\\versions\\3.13.12"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\python\\versions\\.locks"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\node\\cli-connector-packages"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\python\\envs\\default\\Scripts"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\node\\versions\\22.22.2-3"
+        - "C:\\Users\\qingqiang\\.workbuddy\\binaries\\node\\versions\\.locks"
+        - "D:\\VM1\\VMware\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "E:\\matlab\\runtime\\win64"
+        - "E:\\matlab\\bin"
+        - "E:\\Visual Studio Code\\mingw\\bin"
+        - "C:\\Windows\\dll"
+        - "C:\\Program Files\\python"
+        - "C:\\Program Files\\python\\Scripts"
+        - "D:\\BtSoft\\panel\\script"
+        - "E:\\Visual Studio Code\\java\\jdk-25\\bin"
+        - "E:\\Visual Studio Code\\java\\jdk-25\\jre\\bin"
+        - "E:\\C
